@@ -3,10 +3,11 @@ package main
 import (
 	"fmt"
 	"os"
+	"strings"
 )
 
 func main() {
-	content, err := os.ReadFile("standard.txt")
+	content,  err := os.ReadFile("standard.txt")
 	if err != nil {
 		fmt.Println("Error reading file:", err)
 		return
