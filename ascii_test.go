@@ -13,6 +13,6 @@ func TestValidate(t *testing.T) {
 		t.Errorf("expected Hello, got %s", input)
 	}
 	if banner != "standard" {
-		t.Errorf("exxpected standard, got %s", banner)
+		t.Errorf("expected standard, got %s", banner)
 	}
 }

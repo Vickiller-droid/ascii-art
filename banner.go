@@ -14,12 +14,12 @@ func loadBanner(banner string) []string {
 		os.Exit(1)
 	}
 
-	lines := strings.Split(string(content), "\n")
-
 	if len(content) == 0 {
 		fmt.Println("Error: Empty File")
 		os.Exit(1)
 	}
+
+	lines := strings.Split(string(content), "\n")
 
 	if len(lines) != 855 {
 		fmt.Println("Error: Incomplete or corrupt file")
