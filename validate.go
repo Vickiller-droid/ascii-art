@@ -24,7 +24,7 @@ func validate() (string, string) {
 	if banner != "standard" &&
 	banner != "shadow" &&
 	banner != "thinkertoy" {
-		fmt.Println("Invalid font: Use standard, shadow or thinkertoy with \".txt\", e.g standard.txt or standard alone")
+		fmt.Println("Invalid font: Use standard, shadow or thinkertoy - Thank You! ; )")
 		os.Exit(1)
 	}
 	return input, banner
